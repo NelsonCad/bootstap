@@ -1,0 +1,16 @@
+body {
+    background-color: darkgray;
+}
+
+.container {
+    background-color: #eee;
+    padding: 1.5%;
+}
+
+.firstRow {
+    background-color: #eee;
+}
+
+.secondRow {
+    background-color: darkgray;
+}
