@@ -14,3 +14,13 @@ body {
 .secondRow {
     background-color: darkgray;
 }
+
+footer{
+    background-color: #eee;
+    text-align: center;
+    margin: 0.5%;
+    padding: 0.5%;
+    width: 99%;
+    color: rgb(145, 145, 145);
+    font-size: 12px;
+}
