@@ -2,6 +2,12 @@ body {
     background-color: darkgray;
 }
 
+.jumbotron {
+    background-color: #1c3257;
+background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+color: #aa4a4a;
+}
+
 .container {
     background-color: #eee;
     padding: 1.5%;
@@ -27,7 +33,6 @@ body {
     text-align: center;
 
 }
-
 
 footer{
     background-color: #eee;
