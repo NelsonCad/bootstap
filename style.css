@@ -1,5 +1,6 @@
 body {
-    background-color: darkgray;
+    background-color: #3d3d3d;
+    background-image: url("https://www.transparenttextures.com/patterns/maze-white.png");
 }
 
 .jumbotron {
