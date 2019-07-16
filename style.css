@@ -5,6 +5,7 @@ body {
 .container {
     background-color: #eee;
     padding: 1.5%;
+    margin: 0.5% auto;
 }
 
 .firstRow {
@@ -22,7 +23,9 @@ body {
     margin: 0px;
     font-size: 12px;
     color: navy;
-    top: -20px;
+    top: -30px;
+    text-align: center;
+
 }
 
 
