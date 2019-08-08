@@ -43,7 +43,7 @@
                     </div>
                 </li>
             </ul>
-            
+
         </div>
     </nav>
 
@@ -54,12 +54,12 @@
 
             <div class="col col-md-6">
                 <label for="firstName">First Name</label>
-                <input type="text" class="form-control">
+                <input id="firstName" type="text" class="form-control">
             </div>
 
             <div class="col col-md-6">
                 <label for="lastName">Last Name</label>
-                <input type="text" class="form-control">
+                <input id="lastName" type="text" class="form-control">
             </div>
 
         </div>
@@ -68,7 +68,7 @@
 
             <div class="form-group col-md-6">
                 <label for="inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity">
+                <input id="inputCity" type="text" class="form-control">
             </div>
 
         </div>
@@ -76,8 +76,12 @@
         <div class="row">
 
             <div class="form-group col-md-12">
-                <label for="exampleFormControlTextarea1">Send me a message!</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="messageToMe">Send me a message!</label>
+                <textarea id="messageToMe" class="form-control" rows="3"></textarea>
+            </div>
+
+            <div class="col-md-9">
+                <button id="sendMessage">Click to send! Maybe...</button>
             </div>
 
         </div>
@@ -97,6 +101,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="assets/javascript/message.js"></script>
 </body>
 
 </html>
